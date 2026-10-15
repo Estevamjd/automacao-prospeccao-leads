@@ -1,0 +1,39 @@
+# ambiente local e segredos
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# dependencias
+node_modules/
+painel/node_modules/
+
+# builds e caches
+.next/
+.vinext/
+.wrangler/
+dist/
+supabase/.temp/
+painel/.next/
+painel/.vinext/
+painel/.wrangler/
+painel/dist/
+painel/out/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# sistema/editor
+.DS_Store
+Thumbs.db
+
+# pacotes gerados fora do repo
+*.zip
+
+# dados baixados da Receita (telefones de pessoas): nunca vao para o Git
+dados-locais/
+__pycache__/
